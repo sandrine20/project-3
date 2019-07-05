@@ -1,0 +1,39 @@
+.title{
+   max-width: 960px;
+   margin: auto;
+   margin-left: 15%;
+   margin-right: 15%;
+}
+
+.image{
+   display: flex;
+   justify-content: space-between;
+}
+.description{
+   margin-top: 10%;
+}
+.experience{
+   display: grid;
+   text-align: center;
+   margin-top: 3%;
+   background-color: lightgray;}
+
+   .mypicture{
+      position: absolute; top: 30px; right: 70px;
+      border-radius: 50%;
+      border: 0px;
+      width: 150px;
+      height: 150px;
+      margin-top: 50px;
+      box-shadow: 3px 3px 1px #ccc;
+      -webkit-box-shadow: 3px 3px 1px #ccc;
+      -moz-box-shadow: 3px 3px 1px #ccc;
+   }
+   .projects{
+      display: flex;
+      justify-content: center;
+   }
+   .story{
+      display:grid;
+      grid-template-columns: repeat(2, 1fr);
+   }
